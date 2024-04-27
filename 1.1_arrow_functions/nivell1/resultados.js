@@ -11,8 +11,7 @@ const add = (a, b) => a + b;
 function mainex2() {
   document.getElementById("resultado2").innerHTML = random();
 }
-const random = () => Math.random() * 101;
-
+const random = () => Math.floor(Math.random() * 101);
 
 function mainex3() {
   const nombre = document.getElementById("name").value;
