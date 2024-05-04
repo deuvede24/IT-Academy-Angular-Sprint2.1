@@ -1,4 +1,4 @@
-//Ex.1
+//Ex.
 function esperarISaludar(nombre, callback) {
   setTimeout(() => {
     callback(nombre);
@@ -15,7 +15,7 @@ function saludarAsincrono() {
   esperarISaludar(nombre, saludar);
 }
 
-//Ex.2
+//Ex.4
 const arrayElements = [1, 2, 3, 4, 5];
 function processarElements(array, callback) {
   //Uso de forEach para iterar sobre cada elemento del array
