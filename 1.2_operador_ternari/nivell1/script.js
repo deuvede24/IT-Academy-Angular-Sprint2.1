@@ -12,7 +12,7 @@ function mainex2() {
   let n1 = Number(document.getElementById("num1").value);
   let n2 = Number(document.getElementById("num2").value);
 
-  let mensaje = n1 > n2 ? "El primer número es más grande" : "El segundo número es más grande";
+  let mensaje = n1 > n2 ? "El primer número (" + n1 +  ") es más grande" : "El segundo número (" +n2 + ") es más grande";
 
   document.getElementById("resultado2").innerHTML = mensaje;
 }
