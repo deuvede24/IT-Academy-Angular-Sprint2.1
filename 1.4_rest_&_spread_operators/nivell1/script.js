@@ -17,7 +17,7 @@ function mainex1() {
 function mainex2() {
   function sum(...numbers) {
     /*utilizamos reduce para sumar todos los valores entre sí. 
-    total es el varlo acumulado y num el valor del elemento actual 
+    total es el varor acumulado y num el valor del elemento actual 
     a sumar y el 0 indica inicializmaos el total con este valor.*/
     return numbers.reduce((total, num) => total + num, 0);
   }

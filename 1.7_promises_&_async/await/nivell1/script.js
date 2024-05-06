@@ -37,7 +37,7 @@ function main() {
     });
   };
 
-  promesaConReject("no") // Llamada a la función que retorna la promesa
+  promesaConReject("Hola") // Llamada a la función que retorna la promesa
     .then((resultado) => {
       console.log(resultado); // Muestro "Hola" si el input es "Hola"
     })

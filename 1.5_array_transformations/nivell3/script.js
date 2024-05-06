@@ -5,9 +5,10 @@ function mainex6() {
   const array = [11, 12, 13, 14, 9];
 
   const everyMayorDiez = array.every((numero) => numero > 10); //Todos los elementos son >10
-  console.log("El array resultante es: " + everyMayorDiez);
-
+  //console.log("El array resultante es: " + everyMayorDiez);
+  console.log("¿Todos los elementos son mayores que 10? " + everyMayorDiez);
 
   const someMayorDiez = array.some((numero) => numero > 10);
-  console.log("El array resultante es: " + someMayorDiez); //Al menso 1 elemento es >10
+  //console.log("El array resultante es: " + someMayorDiez); //Al menso 1 elemento es >10
+  console.log("¿Algunos de los elementos son mayores que 10? " + someMayorDiez);
 }

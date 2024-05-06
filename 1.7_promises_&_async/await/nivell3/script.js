@@ -9,7 +9,7 @@ function mainex6() {
       resolve("Hola, món");
     }, 2000);
   });
-  // Promesa 2 seconds
+  // Promesa 3 seconds
   const promesa3 = new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve("Bybye, món");
